@@ -187,7 +187,7 @@ var Scoreboard = function(game) {
 
 	this.y = this.game.height;
 	this.x = 0;
-  // initialize your prefab here
+  	// initialize your prefab here
 
     this.menuSound = this.game.add.audio('menu');
 };
@@ -408,8 +408,8 @@ Play.prototype = {
     // Ajout du Background
     this.background = this.game.add.sprite(0,0,'background');
 
-    this.btn_pause = this.game.add.sprite(10,10,'btn_pause');
-    this.btn_pause.scale.setTo(3,3);
+    // this.btn_pause = this.game.add.sprite(10,10,'btn_pause');
+    // this.btn_pause.scale.setTo(3,3);
 
     // Ajout du Sprite de l'oiseau
     this.bird = new Bird(this.game, 100, this.game.height/2);
